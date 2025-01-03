@@ -23,7 +23,7 @@ Now, I want to reduce the bitrate, but don't want users feel bad quality than be
 2. Convert `stream_75s_raw_1920x1080.mp4` to prefer bitrate `700k` as `stream_75s_700k_800x450_h264.flv`
 3. Convert `stream_75s_raw_1920x1080.mp4` to bitrates `576k`, `448k`, `384k` for distored version.
 
-see [create_sample_h264.sh](scripts/create_sample_h264.sh)
+see [create_sample_h264.sh](create_sample_h264.sh)
 
 **Smaples**
 
@@ -44,9 +44,9 @@ see [create_sample_h264.sh](scripts/create_sample_h264.sh)
 
 **Sample for H265**
 
-* [create_sample_h265.sh](scripts/create_sample_h265.sh)
+* [create_sample_h265.sh](create_sample_h265.sh)
     * Create H265 flv.
-* [create_sample_hevc_nvenc.ps1.sh](scripts/create_sample_hevc_nvenc.ps1)
+* [create_sample_hevc_nvenc.ps1.sh](create_sample_hevc_nvenc.ps1)
     * Create flv of hevc_nvenc codec with Nvidia grahpic card on Windows Poershell.
     * Install CUDA toolkit first.
     * FFmpeg for Windows
