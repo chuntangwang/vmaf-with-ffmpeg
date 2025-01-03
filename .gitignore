@@ -1,0 +1,8 @@
+# macos file
+.DS_Store
+
+# fat files
+*.flv
+*.avi
+*.mov
+*.xml
