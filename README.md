@@ -86,5 +86,5 @@ Default model `model/vmaf_v0.6.1.json` is trained by `1920x1080` HDTV, the scrip
 | ...                               | stream_75s_448k_800x450.flv       | 1920x1080 | **90.303380** |
 | ...                               | stream_75s_384k_800x450.flv       | 1920x1080 | 88.956422     |
 
-* Define target score : Pick optimized bitrate to VMAF score between `90 ± 2`.
+* Define target score : Pick optimized bitrate to VMAF score between `90 ± 1`.
 * Pick `448k` as new bitrate to reduce bandwidth of network.
